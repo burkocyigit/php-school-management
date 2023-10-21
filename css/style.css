@@ -1,0 +1,33 @@
+body::after {
+  content: "";
+  background: url("../img/yavuzlar.png");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+.profile-btn {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  width: 1000px;
+}
